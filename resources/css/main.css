@@ -30,6 +30,12 @@ body {
     padding: 10px;
 }
 
+@media only screen and (max-width: 500px) {
+    .main-1 h1 {
+        font-size: 40px;
+    }
+}
+
 .main-2 {
     width: auto;
     height: auto;
@@ -75,8 +81,12 @@ body {
     color: white;
 }
 
-.button:hover {
-    background-color: blue;
+.button1:hover {
+    background-color: lightgreen;
+}
+
+.button2:hover {
+    background-color: lightcoral;
 }
 
 .button:active {
@@ -88,14 +98,17 @@ body {
 .button2 {background-color: #ff0000;} /* Blue */
 
 .footer {
+    background-color: lightgrey;
     padding: 10px;
     text-align: center;
     margin-top: 50px;
+    border: solid 1px black;
+    
 }
 
 .footer li {
     display: inline;
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .footer li a {

@@ -28,14 +28,17 @@ p {
 }
 
 .footer {
+    background-color: lightgrey;
     padding: 10px;
     text-align: center;
     margin-top: 50px;
+    border: solid 1px black;
+    
 }
 
 .footer li {
     display: inline;
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .footer li a {
