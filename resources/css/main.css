@@ -1,0 +1,108 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.main-1 {
+    background-color: #000000;
+    color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.main-1 h1 {
+    font-size: 48px;
+    padding: 10px;
+}
+
+.main-1 h2 {
+    font-size: 36px;
+    padding: 10px;
+}
+
+.main-1 h3 {
+    font-size: 32px;
+    padding: 10px;
+}
+
+.main-2 {
+    width: auto;
+    height: auto;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-2 p {
+    padding: 10px;
+}
+
+.main-3 {
+    background-color: #000000;
+    color: white;
+    width: auto;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+}
+
+.main-3 p {
+    padding: 10px;
+    font-size: 32px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.button:active {
+    transform: translateY(4px);
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+
+.button2 {background-color: #ff0000;} /* Blue */
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer li {
+    display: inline;
+    padding: 5px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer li a:hover {
+    color: blue;
+}
